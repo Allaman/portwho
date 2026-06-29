@@ -10,4 +10,4 @@ A simple CLI written in C to list open ports on your local machine.
 Why?
 
 - I always forget the arguments for `ss` and `netstat`
-- A test for my local LLM setup (yes, the code was mainly written by AI, I have no experience with C and just guided the agent)
+- A test for my local LLM setup (yes, the code was mainly written by AI, I have little experience in C and just guided the agent)
