@@ -28,16 +28,16 @@ jobs:
             arch: arm64
             cc: gcc
             asset_name: portwho-linux-arm64
-          - runner: macos-13
-            os: macos
-            arch: amd64
-            cc: clang
-            asset_name: portwho-macos-amd64
-          - runner: macos-14
+          - runner: macos-26
             os: macos
             arch: arm64
             cc: clang
             asset_name: portwho-macos-arm64
+          - runner: macos-26-intel
+            os: macos
+            arch: amd64
+            cc: clang
+            asset_name: portwho-macos-amd64
 
     steps:
       - name: Check out repository
