@@ -1,5 +1,7 @@
 # portwho
 
+![screenshot](./screenshot.png)
+
 A simple CLI written in C to list open ports on your local machine.
 
 - supports Linux and macOS
